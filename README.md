@@ -5,13 +5,13 @@ SWNavigationController
 
 A UINavigationController subclass and corresponding UINavigationControllerDelegate that implements drop-in support for swiping left and right through a view hierarchy.
 
-##Installation
+## Installation
 In your Podfile:
 <pre>pod 'SWNavigationController' </pre>
 
 Or just close this repo and manually add the files from the `PodFiles` directory to your project
 
-##Usage
+## Usage
 
 To use `SWNavigationController`, simply change the type of the `UINavigationController`
 
@@ -30,7 +30,7 @@ To use `SWNavigationController`, simply change the type of the `UINavigationCont
 }
 ```
 
-##Functionality
+## Functionality
 
 ### API
 ####  Interactive Push Gesture
@@ -58,17 +58,17 @@ The interactive push by default attempts to behave similarly to the built-in int
 ```
 `popAnimatedTransitioningClass` can be set to override `UINavigationController`'s default interactive pop transition when pulling from the left edge of the screen. This class must implement the protocol `UIViewControllerAnimatedTransitioning`.
 
-###Features
+### Features
 * Easy drop-in creation using either Storyboards or programmatically
 * Default push transition that mimics `UINavigationController`'s pop transition
 * Customizable push and pop transitions
 * Easily enable and disable pulling view controllers back onto the stack
 * iOS 7 and above
 
-##Contributing
+## Contributing
 Use [Github issues](https://github.com/cewendel/SWNavigationController/issues) to track bugs and feature requests.
 
-##Contact
+## Contact
 
 Chris Wendel
 
